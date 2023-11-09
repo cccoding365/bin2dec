@@ -1,18 +1,47 @@
-# Vue 3 + TypeScript + Vite
+# Bin2Dec
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+**Tier:** 1-Beginner
 
-## Recommended IDE Setup
+Binary is the number system all digital computers are based on.
+Therefore it's important for developers to understand binary, or base 2,
+mathematics. The purpose of Bin2Dec is to provide practice and
+understanding of how binary calculations.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Bin2Dec allows the user to enter strings of up to 8 binary digits, 0's
+and 1's, in any sequence and then displays its decimal equivalent.
 
-## Type Support For `.vue` Imports in TS
+This challenge requires that the developer implementing it follow these
+constraints:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+-   Arrays may not be used to contain the binary digits entered by the user
+-   Determining the decimal equivalent of a particular binary digit in the
+    sequence must be calculated using a single mathematical function, for
+    example the natural logarithm. It's up to you to figure out which function
+    to use.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## User Stories
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+-   [ ] User can enter up to 8 binary digits in one input field
+-   [ ] User must be notified if anything other than a 0 or 1 was entered
+-   [ ] User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
+
+## Bonus features
+
+-   [ ] User can enter a variable number of binary digits
+
+## Useful links and resources
+
+[Binary number system](https://en.wikipedia.org/wiki/Binary_number)
+
+## Example projects
+
+Try not to view this until you've developed your own solution:
+
+-   [Binary to decimal conversion program for beginners](https://www.youtube.com/watch?v=YMIALQE26KQ)
+-   [Binary to Decimal converter using React](https://github.com/email2vimalraj/Bin2Dec)
+-   [Binary to Decimal converter with plain html, js and css](https://grfreire.github.io/Bin2Dec/)
+-   [Binary to Decimal converter using Flutter & Dart](https://github.com/israelss/AppIdeasCollection/tree/master/Tier1/Bin2Dec)
+    -   [Live preview built with Flutter for Web](https://bin2dec.web.app/#/)
+-   [Binary to Decimal converter using React](https://github.com/geoffctn/Bin2Dec)
+-   [Matrix-like Binary to Decimal converter using Angular](https://github.com/ZangiefWins/MatrixBin2Dec)
+    -   [Live preview on heroku](https://matrix-bin2dec.herokuapp.com/)
